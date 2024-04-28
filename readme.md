@@ -14,6 +14,16 @@ Puoi installare i moduli necessari usando il seguente comando:
 ```bash
 pip install ecdsa pycryptodome base58
 ```
+
+## Clone the Repository
+
+1. Open a terminal.
+2. Run the following command to clone the repository:
+
+    ```bash
+    git clone https://github.com/NotMick3/Keyfinder.git
+    ```
+
 ## How to Use
 
 Required Modifications
