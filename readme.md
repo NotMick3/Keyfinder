@@ -7,6 +7,7 @@ This project searches for a specific Bitcoin address within a range of private k
 Make sure you have the following installed:
 
 -Python 3.8 or later
+
 -Python modules: ecdsa, Crypto, hashlib, base58
 
 You can install the required modules using the following command:
