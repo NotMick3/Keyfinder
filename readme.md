@@ -1,15 +1,15 @@
 # Bitcoin Address Finder
 
-Questo progetto cerca un indirizzo Bitcoin specifico in un intervallo di chiavi private.
+This project searches for a specific Bitcoin address within a range of private keys.
 
-## Requisiti
+## Requirements
 
-Assicurati di avere installato quanto segue:
+Make sure you have the following installed:
 
-- Python 3.8 o successivo
-- Moduli Python: `ecdsa`, `Crypto`, `hashlib`, `base58`
+-Python 3.8 or later
+-Python modules: ecdsa, Crypto, hashlib, base58
 
-Puoi installare i moduli necessari usando il seguente comando:
+You can install the required modules using the following command:
 
 ```bash
 pip install ecdsa pycryptodome base58
@@ -23,7 +23,7 @@ pip install ecdsa pycryptodome base58
     ```bash
     git clone https://github.com/NotMick3/Keyfinder.git
     ```
-
+    
 ## How to Use
 
 Required Modifications
