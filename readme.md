@@ -2,6 +2,9 @@
 
 This project searches for a specific Bitcoin address within a range of private keys.
 
+![Example](example.gif)
+
+
 ## Requirements
 
 Make sure you have the following installed:
