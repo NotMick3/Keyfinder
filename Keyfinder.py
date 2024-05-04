@@ -2,11 +2,11 @@ import random
 from bitcoinlib.keys import Key
 
 # Target Bitcoin address
-target_address = "1E6NuFjCi27W5zoXg8TRdcSRq84zJeBW3k"
+target_address = "13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so"
 
 # Range of private keys (in hexadecimal format)
-range_start_int = int("0000000000000000000000000000000000000000000000000000000000000010", 16)
-range_end_int = int("000000000000000000000000000000000000000000000000000000000000001f", 16)
+range_start_int = int("0000000000000000000000000000000000000000000000020000000000000000", 16)
+range_end_int = int("000000000000000000000000000000000000000000000003ffffffffffffffff", 16)
 
 def find_target_address():
     """
