@@ -48,8 +48,8 @@ Here is an example of the values you need to modify:
 
 ```bash
 target_address = "13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so"
-range_start_hex = "0000000000000000000000000000000000000000000000020000000000000000"
-range_end_hex = "000000000000000000000000000000000000000000000003ffffffffffffffff"
+range_start_int = "0000000000000000000000000000000000000000000000020000000000000000"
+range_end_int = "000000000000000000000000000000000000000000000003ffffffffffffffff"
 ```
 
 ## Running the Script
@@ -58,7 +58,7 @@ To run the script and start searching for the specific Bitcoin address, open a t
 
 ```bash
 
-python keyfinder.py
+python Keyfinder.py
 ```
 
 
