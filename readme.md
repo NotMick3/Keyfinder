@@ -11,12 +11,14 @@ Make sure you have the following installed:
 
 -Python 3.8 or later
 
--Python modules: ecdsa, Crypto, hashlib, base58
+-Python module:  bitcoinlib
+
 
 You can install the required modules using the following command:
 
 ```bash
-pip install ecdsa pycryptodome base58
+pip install bitcoinlib
+
 ```
 
 ## Clone the Repository
@@ -37,8 +39,8 @@ In the Python script, you need to modify the following values to suit your needs
 
 ```bash
 target_address 
-range_start_hex 
-range_end_hex 
+range_start_int 
+range_end_int
 ```
 
 
